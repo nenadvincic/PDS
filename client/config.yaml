@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: zahtevjob
+spec: 
+  template:         
+    metadata:
+      name: zahtevjob
+    spec:
+      containers:
+      - name: zahtev
+        image: node:latest
+        command:
+        - node
+        - zahtev.js
