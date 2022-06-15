@@ -2,9 +2,9 @@ var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
 var raw = JSON.stringify({
-  "ime": "Danilo",
-  "prezime": "Babic",
-  "smer": "RM",
+  "ime": "Nenad",
+  "prezime": "Vincic",
+  "smer": "RI",
   "predmeti": [
     {
       "ime": "LAAG",
